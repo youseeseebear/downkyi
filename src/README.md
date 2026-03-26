@@ -1,3 +1,4 @@
+# 原作者已删库，注意不要sync
 # 哔哩下载姬
 
 哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。
@@ -53,6 +54,17 @@
 - [.NET Framework 4.7.2 离线安装程序](https://download.microsoft.com/download/6/E/4/6E48E8AB-DC00-419E-9704-06DD46E5F81D/NDP472-KB4054530-x86-x64-AllOS-ENU.exe)
 
 - 也可以安装 [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+
+### 环境
+编译exe: 
+选项1：在VS Code中按 Ctrl+Shift+B 运行构建任务（如果已配置）
+        菜单-》终端-》运行生成环境（Ctrl+Shift+B）
+选项2：选项1：在Windows上使用Visual Studio编译
+    在Windows上安装Visual Studio
+    用Visual Studio打开 DownKyi.sln
+    选择Release|AnyCPU配置编译
+    exe会生成到 DownKyi/bin/Release/DownKyi.exe
+
 
 ### 检索
 
